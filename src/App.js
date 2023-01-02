@@ -4,6 +4,7 @@ import CompPadrao, {Comp1, Comp2} from "./components/Multi"
 import Primeiro from "./components/Primeiro"
 
 function App() {
+    console.warn("Olá!")
     return (
         <SafeAreaView style={style.app}>
             <Primeiro />
