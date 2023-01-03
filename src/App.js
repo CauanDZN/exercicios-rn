@@ -4,10 +4,12 @@ import CompPadrao, {Comp1, Comp2} from "./components/Multi"
 import Primeiro from "./components/Primeiro"
 import MinMax from "./components/MinMax"
 import Aleatorio from "./components/Aleatorio"
+import Titulo from "./components/Titulo"
 
 function App() {
     return (
         <SafeAreaView style={style.app}>
+            <Titulo principal="Cadastro" secundario="Tela de Cadastro" />
             <MinMax min={3} max={20} />
             <Aleatorio min={3} max={20} />
             <Primeiro />
