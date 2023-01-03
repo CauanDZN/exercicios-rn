@@ -6,7 +6,7 @@ export default props => {
 
     return (
         <>
-            <Text style={Estilo.txtG}>{props.principal}</Text>
+            <Text style={Estilo.textogrande}>{props.principal}</Text>
             <Text>{props.secundario}</Text>
         </>
     )

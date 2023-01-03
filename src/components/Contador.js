@@ -10,7 +10,7 @@ export default ({ inicial = 0, passo = 1 }) => {
 
     return (
         <>
-            <Text style={Estilo.txtG}>{numero}</Text>
+            <Text style={Estilo.textogrande}>{numero}</Text>
             <Button title="+" onPress={inc} />
             <Button title="-" onPress={dec} />
         </>

@@ -4,10 +4,10 @@ import Estilo from './estilo'
 
 export default _ => {
     if(Platform.OS === 'android') {
-        return <Text style={Estilo.txtG}>Android</Text>
+        return <Text style={Estilo.textogrande}>Android</Text>
     } else if(Platform.OS === 'ios') {
-        return <Text style={Estilo.txtG}>iOS</Text>
+        return <Text style={Estilo.textogrande}>iOS</Text>
     } else {
-        return <Text style={Estilo.txtG}>Eita!!!</Text>
+        return <Text style={Estilo.textogrande}>Eita!!!</Text>
     }
 }

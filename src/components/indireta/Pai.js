@@ -14,7 +14,7 @@ export default props => {
 
     return (
         <>
-            <Text style={Estilo.txtG}>
+            <Text style={Estilo.textogrande}>
                 {texto}{num}
             </Text>
             <Filho
