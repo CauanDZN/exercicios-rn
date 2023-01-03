@@ -2,6 +2,7 @@ import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
 
 import Contador from './components/contador/Contador'
+import Diferenciar from './components/Diferenciar'
 // import Pai from './components/indireta/Pai'
 // import Pai from './components/direta/Pai'
 // import Contador from './components/Contador'
@@ -15,8 +16,9 @@ import Contador from './components/contador/Contador'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <Contador />
+        <Diferenciar />
         {/*
+        <Contador />
         <Pai />
         <Pai />
         <Contador inicial={100} passo={13} />
