@@ -3,15 +3,17 @@ import { SafeAreaView, StyleSheet } from "react-native"
 import CompPadrao, {Comp1, Comp2} from "./components/Multi"
 import Primeiro from "./components/Primeiro"
 import MinMax from "./components/MinMax"
+import Aleatorio from "./components/Aleatorio"
 
 function App() {
     return (
         <SafeAreaView style={style.app}>
             <MinMax min={3} max={20} />
-            {/* <Primeiro />
+            <Aleatorio min={3} max={20} />
+            <Primeiro />
             <CompPadrao />
             <Comp1 />
-            <Comp2 /> */}
+            <Comp2 />
         </SafeAreaView>
     )
 }
