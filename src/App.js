@@ -1,10 +1,11 @@
-import React from "react"
-import { SafeAreaView, StyleSheet } from "react-native"
-import CompPadrao, {Comp1, Comp2} from "./components/Multi"
-import Primeiro from "./components/Primeiro"
-import MinMax from "./components/MinMax"
-import Aleatorio from "./components/Aleatorio"
-import Titulo from "./components/Titulo"
+import React from "react";
+import { SafeAreaView, StyleSheet } from "react-native";
+import CompPadrao, {Comp1, Comp2} from "./components/Multi";
+import Primeiro from "./components/Primeiro";
+import MinMax from "./components/MinMax";
+import Aleatorio from "./components/Aleatorio";
+import Titulo from "./components/Titulo";
+import Botao from "./components/Botao";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <CompPadrao />
             <Comp1 />
             <Comp2 />
+            <Botao />
         </SafeAreaView>
     )
 }
