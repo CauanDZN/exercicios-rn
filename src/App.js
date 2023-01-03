@@ -7,6 +7,7 @@ import Aleatorio from "./components/Aleatorio";
 import Titulo from "./components/Titulo";
 import Botao from "./components/Botao";
 import Contador from "./components/Contador";
+import Pai from "./components/direta/Pai";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <CompPadrao />
             <Comp1 />
             <Comp2 />
+            <Pai />
             <Contador inicial={0} passo={1} />
             <Botao />
         </SafeAreaView>
