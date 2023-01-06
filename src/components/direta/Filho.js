@@ -5,8 +5,8 @@ import Estilo from '../estilo'
 export default props => {
     return (
         <>
-            <Text style={Estilo.textogrande}>{props.a}</Text>
-            <Text style={Estilo.textogrande}>{props.b}</Text>
+            <Text style={Estilo.txtG}>{props.a}</Text>
+            <Text style={Estilo.txtG}>{props.b}</Text>
         </>
     )
 }

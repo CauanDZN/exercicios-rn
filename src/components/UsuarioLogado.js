@@ -8,8 +8,8 @@ export default props => {
     return (
         <>
             <If teste={usuario && usuario.nome && usuario.email}>
-                <Text style={Estilo.textogrande}>Usuário Logado:</Text>
-                <Text style={Estilo.textogrande}>
+                <Text style={Estilo.txtG}>Usuário Logado:</Text>
+                <Text style={Estilo.txtG}>
                     {usuario.nome} - {usuario.email}
                 </Text>
             </If>

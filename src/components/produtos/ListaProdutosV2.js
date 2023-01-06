@@ -11,7 +11,7 @@ export default props => {
 
     return (
         <>
-            <Text style={Estilo.textogrande}>
+            <Text style={Estilo.txtG}>
                 Lista de Produtos V2
             </Text>
             <FlatList

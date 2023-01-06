@@ -13,7 +13,7 @@ export default props => {
 
     return (
         <>
-            <Text style={Estilo.textogrande}>
+            <Text style={Estilo.txtG}>
                 Contador
             </Text>
             <ContadorDisplay num={num} />
