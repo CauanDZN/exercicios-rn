@@ -6,7 +6,7 @@ export default class Mega extends Component {
 
     render() {
         return (
-            <Text style={Estilo.txtG}>
+            <Text style={Estilo.textogrande}>
                 Gerador de Mega-Sena
             </Text>
         )
